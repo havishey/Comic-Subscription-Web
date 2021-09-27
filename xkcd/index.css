@@ -1,0 +1,346 @@
+body{
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,113,121,1) 50%, rgba(0,212,255,1) 100%);  
+}
+
+h1{
+
+    font-size: 52px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+hr{
+
+    width: 30%;
+    height: 1.5px;
+    background-color: #C7AB89;
+}
+#modal{
+
+    background-color: white;
+    position: relative;
+    display: none;
+    bottom: 500px;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: 'Noto Serif', serif;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    padding: 10px; 
+     
+}
+
+#close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+      
+#close:hover,
+#close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#invalid_modal{
+    background-color: none;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: none;
+    float: left;
+    font-family: 'Noto Serif', serif;
+    margin-left: 8px;
+}
+
+#label-otp{
+    font-size: 73%;
+    color: lightgray;
+    right: 110px;
+    position: relative;
+    margin-top: 40px;
+}
+
+#OTP-holder{
+    bottom: 10px;
+    right: 15px;
+    position: relative;
+    width: 300px;
+    margin-left: 15px;
+    height: 25px;
+    border:2px solid #16C0E9;
+    padding: 7px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    font-size: 85%;
+}
+
+#OTP-holder::-webkit-outer-spin-button,
+#OTP-holder::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#OTP-holder:hover{
+    border-color: #D564B6;
+}
+
+#OTP-holder:focus{
+    border-color: #D4506D;
+}
+
+#OTP-submit{
+    margin-top: 10px;
+    width: 80px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    right: 125px;
+    font-weight:700;
+    font-size: 80%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3 ease-in;
+    background: linear-gradient(136deg, rgb(224,195,253 ) 0%, rgb(142,197,252) 100%); 
+}
+
+#OTP-submit:hover{
+    opacity: 80%;
+}
+
+#modal-logo{
+
+    width: 100px;
+    height: 50px;
+
+}
+
+#modal-info{
+
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+#resend{
+    float: right;
+    font-size: 85%;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    margin: 20px;
+    bottom: 8px;
+    color: gray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#resend:hover{
+    color: #000;
+}
+
+#resend-info{
+    font-size: 70%;
+    font-family: 'Noto Serif', serif;
+    float: left;
+    color: gray;
+    margin-top: 15px;
+}
+
+
+#form-container{
+
+    max-width : 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;   
+ 
+}
+
+#icon-img{
+    width: 100px;
+    height: 100px;
+
+}
+
+#info{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+#invalid_form{
+
+    background: #f8d7da;
+    color: #721c24;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    display: none;
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+
+#primary-form{
+    background: transparent;
+    margin: auto;
+    font-size: 18px;
+    
+}
+  
+.holder{
+    width: 350px;
+    height: 20px;
+    border:2px solid #16C0E9;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: 10px;
+    background: none;
+    padding: 7px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.holder:hover{
+    border-color: #D564B6;
+}
+
+.holder:focus{
+    border-color: #D4506D;
+}
+
+
+#subscribe{
+    margin: 20px;
+    margin-top: 10px;
+    width: 370px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-weight:700;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3 ease-in;
+    background: linear-gradient(136deg, rgb(224,195,253 ) 0%, rgb(142,197,252) 100%); 
+}
+
+#subscribe:hover{
+
+    opacity: 80%;
+}
+
+#timer-div {
+    font-size: 70%;
+    position: relative;
+    left: 110px;
+    bottom: 20px;
+}
+
+#Subscribed_modal {
+
+    max-width: 550px;
+    height: 250px;
+    padding: 10px;
+    bottom: 450px;
+    border-radius: 25px;
+    background-color: white;
+    display: none;
+    margin: auto;
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    z-index: 2;
+    color: black;
+    text-align: center;
+
+}
+
+#Subscribed-message{
+    font-size: x-large;
+    margin: auto;
+}
+
+#Subscribed-icon{
+    z-index: 3;
+    position:relative;
+    height: 60px;
+    width: 60px;
+    bottom: 40px;
+    left: 20px;
+}
+
+#Subscribed-close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: relative;
+    right: 20px;
+}
+
+#Subscribed-close:hover,
+#Subscribed-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Subscribed-logo{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+@media screen and (max-width:568px){
+    #info{
+        font-size:17px;
+    }
+}
+
+@media screen and (max-width:460px){
+    .holder,#subscribe,#invalid_form{
+        box-sizing: border-box;
+        width:90%;
+       
+    }
+
+    .holder{
+        padding:20px;
+    }
+
+    #primary-form{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+    
